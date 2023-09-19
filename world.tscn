@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgfcsr1k8glrv"]
+
+[ext_resource type="PackedScene" uid="uid://dsqnaknvp7c4b" path="res://your_mom.tscn" id="1_v1k76"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_55tv5"]
+size = Vector2(314, 106)
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_jd7ff"]
+
+[node name="World" type="Node2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(496, 376)
+shape = SubResource("RectangleShape2D_55tv5")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="CollisionShape2D"]
+physics_material_override = SubResource("PhysicsMaterial_jd7ff")
+
+[node name="YourMom" parent="." instance=ExtResource("1_v1k76")]
+position = Vector2(440, 280)

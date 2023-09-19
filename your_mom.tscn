@@ -1,0 +1,150 @@
+[gd_scene load_steps=23 format=3 uid="uid://dsqnaknvp7c4b"]
+
+[ext_resource type="Texture2D" uid="uid://baath6mvextjh" path="res://asset_packs/Knight/noBKG_KnightIdle_strip.png" id="1_1w8vp"]
+[ext_resource type="Script" path="res://your_mom.cs" id="1_7ysii"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_0krpc"]
+radius = 8.0
+height = 32.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p7xyu"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xu0fa"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5h2f5"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4pv5o"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0m87u"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(256, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6ddb2"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(320, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lv2r4"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(384, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ob28v"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(448, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ayea0"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(512, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3m3t5"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(576, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_m3xqn"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(640, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dakr1"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(704, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_adla4"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(768, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6nkbw"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(832, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rnh7o"]
+atlas = ExtResource("1_1w8vp")
+region = Rect2(896, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_sofee"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p7xyu")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xu0fa")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5h2f5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4pv5o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0m87u")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6ddb2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lv2r4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ob28v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ayea0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3m3t5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_m3xqn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dakr1")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_adla4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6nkbw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rnh7o")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 5.0
+}]
+
+[sub_resource type="Animation" id="Animation_3u5vc"]
+resource_name = "Idle"
+
+[sub_resource type="Animation" id="Animation_4237e"]
+length = 0.001
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_vw7ii"]
+_data = {
+"Idle": SubResource("Animation_3u5vc"),
+"RESET": SubResource("Animation_4237e")
+}
+
+[node name="YourMom" type="CharacterBody2D"]
+script = ExtResource("1_7ysii")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_0krpc")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 2)
+sprite_frames = SubResource("SpriteFrames_sofee")
+animation = &"Idle"
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+autoplay = "Idle"
+libraries = {
+"": SubResource("AnimationLibrary_vw7ii")
+}

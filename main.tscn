@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://owndfqseo14f"]
+[gd_scene load_steps=4 format=3 uid="uid://owndfqseo14f"]
 
 [ext_resource type="Script" path="res://main.cs" id="1_2khvn"]
 [ext_resource type="PackedScene" uid="uid://3tk1xwr757vx" path="res://back_ground.tscn" id="2_q3vxt"]
+[ext_resource type="PackedScene" uid="uid://dsqnaknvp7c4b" path="res://your_mom.tscn" id="3_mo4yf"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_2khvn")
@@ -29,4 +30,8 @@ text = "Quit"
 
 [node name="BackGround" parent="." instance=ExtResource("2_q3vxt")]
 
+[node name="YourMom" parent="." instance=ExtResource("3_mo4yf")]
+position = Vector2(440, 16)
+
+[connection signal="pressed" from="Play" to="." method="_on_play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_quit_pressed"]
