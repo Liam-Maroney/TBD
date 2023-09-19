@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cp7yjkbcd0iie"
+path="res://.godot/imported/00tommy03.ogg-38ca7043fb41bfb4ca85f3f165272db2.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset_packs/[RPG MAKER MV]/Audio/se/00tommy03.ogg"
+dest_files=["res://.godot/imported/00tommy03.ogg-38ca7043fb41bfb4ca85f3f165272db2.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dfwqqq0uhap07"
+path="res://.godot/imported/Shoot_003.wav-bce8c27c84da35d63675997ec585d5a0.sample"
+
+[deps]
+
+source_file="res://asset_packs/Sfx/Laser or Shoot/Shoot_003.wav"
+dest_files=["res://.godot/imported/Shoot_003.wav-bce8c27c84da35d63675997ec585d5a0.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d1kqibl4ry5c1"
+path="res://.godot/imported/CrazyCatSong6.ogg-2a8e9d9157db93585a57aecabf3cf5aa.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset_packs/[RPG MAKER MV]/Audio/bgm/CrazyCatSong6.ogg"
+dest_files=["res://.godot/imported/CrazyCatSong6.ogg-2a8e9d9157db93585a57aecabf3cf5aa.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

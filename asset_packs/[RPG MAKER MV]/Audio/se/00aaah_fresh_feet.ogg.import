@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://obtcwsyi587l"
+path="res://.godot/imported/00aaah_fresh_feet.ogg-a9053b0f9fb51752887645e132458657.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset_packs/[RPG MAKER MV]/Audio/se/00aaah_fresh_feet.ogg"
+dest_files=["res://.godot/imported/00aaah_fresh_feet.ogg-a9053b0f9fb51752887645e132458657.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

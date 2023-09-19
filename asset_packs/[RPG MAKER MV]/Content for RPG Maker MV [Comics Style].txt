@@ -1,0 +1,24 @@
+Audio
+se: 8 (ogg & mp4)
+bgm: 14 (ogg & mp4)
+
+Graphics
+Battlebacks1 (floors): 8
+Battlebacks2 (walls): 6
+
+Characters (multidirectional sprites): 80+
+Characters (animated sprites & objects): 80+
+
+Enemies (Loose art): 20
+Enemies (sideview battlers): 19
+
+Faces: 38
+
+Parallaxes: 1
+
+Pictures: 4
+
+System (Window graphics): 3
+System (IconSet): 1
+
+Weapons (For Sideview actors): 19

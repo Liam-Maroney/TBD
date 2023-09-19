@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://wsefqjg6a4yy"
+path="res://.godot/imported/Ambient 5.wav-794c582760aa571aaaeea4f6f84815c6.sample"
+
+[deps]
+
+source_file="res://asset_packs/Wav/Ambient 5.wav"
+dest_files=["res://.godot/imported/Ambient 5.wav-794c582760aa571aaaeea4f6f84815c6.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

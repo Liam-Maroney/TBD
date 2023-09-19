@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://cjhwj434wvkn7"
+path="res://.godot/imported/Piano 2.wav-a0966bea106cd5d053b344649655d7d2.sample"
+
+[deps]
+
+source_file="res://asset_packs/wav/Piano 2.wav"
+dest_files=["res://.godot/imported/Piano 2.wav-a0966bea106cd5d053b344649655d7d2.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0

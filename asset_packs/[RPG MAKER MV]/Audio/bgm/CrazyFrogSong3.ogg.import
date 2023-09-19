@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cboj5qp8kgjcr"
+path="res://.godot/imported/CrazyFrogSong3.ogg-e8366e4fc9c3f8cb8668d641a129d11f.oggvorbisstr"
+
+[deps]
+
+source_file="res://asset_packs/[RPG MAKER MV]/Audio/bgm/CrazyFrogSong3.ogg"
+dest_files=["res://.godot/imported/CrazyFrogSong3.ogg-e8366e4fc9c3f8cb8668d641a129d11f.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

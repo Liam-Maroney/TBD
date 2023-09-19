@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://crrx3yt0n0584"
+path="res://.godot/imported/Shooter Synthwave 7.mp3-579b00e6460d546db1a0283a621e6ea8.mp3str"
+
+[deps]
+
+source_file="res://asset_packs/mp3/Shooter Synthwave 7.mp3"
+dest_files=["res://.godot/imported/Shooter Synthwave 7.mp3-579b00e6460d546db1a0283a621e6ea8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
