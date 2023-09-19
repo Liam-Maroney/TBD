@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d3gdkrfafxm0y"
-path="res://.godot/imported/BloodSplatterDeathbyFall.png-c4fb47da7e714e0e0e05e29a780d0b47.ctex"
+uid="uid://dyvacs07sef6p"
+path="res://.godot/imported/TV00.png-28c5e6224e734ac23beaa2737c94744a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset_packs/[RPG MAKER MV]/Pictures/BloodSplatterDeathbyFall.png"
-dest_files=["res://.godot/imported/BloodSplatterDeathbyFall.png-c4fb47da7e714e0e0e05e29a780d0b47.ctex"]
+source_file="res://asset_packs/[RPG MAKER MV]/Parallaxes/Pictures/TV00.png"
+dest_files=["res://.godot/imported/TV00.png-28c5e6224e734ac23beaa2737c94744a.ctex"]
 
 [params]
 

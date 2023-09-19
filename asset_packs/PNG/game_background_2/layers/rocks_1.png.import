@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyvacs07sef6p"
-path="res://.godot/imported/TV00.png-6bea95ddc7b7d65ccf2f0ad9124ee085.ctex"
+uid="uid://ce3vr0hybfd2g"
+path="res://.godot/imported/rocks_1.png-eeee12c1bf2f99ef0addb9ae8528a7cb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://asset_packs/[RPG MAKER MV]/Pictures/TV00.png"
-dest_files=["res://.godot/imported/TV00.png-6bea95ddc7b7d65ccf2f0ad9124ee085.ctex"]
+source_file="res://asset_packs/PNG/game_background_2/layers/rocks_1.png"
+dest_files=["res://.godot/imported/rocks_1.png-eeee12c1bf2f99ef0addb9ae8528a7cb.ctex"]
 
 [params]
 
